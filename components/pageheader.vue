@@ -8,10 +8,10 @@
         li.about ABOUT
         li.gallery GALLERY
         li.contact CONTACT
-      .icons(v-on:click="menu()") 
-        .icon1  
-        .icon2
-        .icon3
+    .icons(v-on:click="menu()") 
+      .icon1  
+      .icon2
+      .icon3
 
 </template>
 <script>
@@ -47,36 +47,45 @@ export default {
       justify-content: space-between
       li
         margin-left: 20px
-    
+        border-bottom: 2px solid #b2d430
+     
     
 @media (max-width: 500px )      
   .pageheader
     .menuitems
       ul
         display: none  
-      .icons
-        display: flex
-        flex-direction: column
-        padding: 2px
-        .icon1, .icon2, .icon3
-          float: right  
-          display: block
-          margin-top: 1rem
-          width: 25px
-          height: 3px
-          background-color: black
-          margin: 2px 0
+    .icons
+      display: flex
+      flex-direction: column
+      padding: 2px
+      .icon1, .icon2, .icon3
+        float: right  
+        display: block
+        margin-top: 1rem
+        width: 25px
+        height: 3px
+        background-color: white
+        margin: 2px 0  
 @media (max-width: 500px )
   .pageheader
-    .menuitems.responsive
+    .icons
       position: absolute
-      right: 0
-      top: 0  
-    .menuitems.responsive 
+      top: 3rem
+      right: 2rem       
+    .menuitemsresponsive
       ul
-        float: none
-        display: block
-        text-align: left          
-        
+        list-style-type: none  
+        position: absolute
+        top: 3rem
+        right: 0rem 
+        width: 190px
+        height: 50%
+        background: black
+        color: white
+        li
+          padding: 4px
+          &hover
+            background: red
 </style>
 
