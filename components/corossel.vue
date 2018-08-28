@@ -30,18 +30,24 @@
       text-decoration: underline 
       color: rgba(187, 180, 180, 0.7) 
   .button
+    justify-content: center
+    display: flex
+    padding: 10px
     button
       border: 2px solid #fff
       background: white
       padding: 15px 60px
       border-radius: 30px
       color: #b2d430
-      align-items: center
-      margin-left: 43%
+
 @media ( max-width: 550px )  
   .slider-corosel
     .button
+      justify-content: center
+      display: flex
+      padding: 10px
       button    
-        margin-left: 25%
+        
+
     </style>
 
