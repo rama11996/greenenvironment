@@ -10,8 +10,10 @@
 <style lang="sass" scoped>
 .banner
   .contents
-    background: url("https://uicookies.com/demo/theme/green/img/slider_2.jpg")
-    back
+    background: url("https://uicookies.com/demo/theme/green/img/slider_2.jpg") 
+    background-repeat: no-repeat
+    background-size: cover
+    background-attachment: fixed
     padding: 4.5rem
     margin-bottom: 2rem
     .title

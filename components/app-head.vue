@@ -83,6 +83,7 @@ $header-height: 4rem
       &.open
         @include full-screen
         display: block
+        z-index: 1        
         .mask
           @include full-screen
 

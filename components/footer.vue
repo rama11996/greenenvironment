@@ -52,6 +52,9 @@ $green: #B2D430
 $white: #fff
 .footer 
   background: url("https://uicookies.com/demo/theme/green/img/slider_3.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  background-attachment: fixed
   .contents 
     @media (min-width: 950px)
       display: flex
